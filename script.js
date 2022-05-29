@@ -17,3 +17,10 @@ function totalPago() {
   }
   document.getElementById("total").innerHTML = "Total a Pagar: $" + total;
 }
+
+function reset() {
+  cantidad = 0;
+  total = 0;
+  categoria = "";
+  document.getElementById("total").innerHTML = "Total a Pagar: $";
+}
